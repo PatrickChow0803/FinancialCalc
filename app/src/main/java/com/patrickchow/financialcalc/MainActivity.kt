@@ -16,7 +16,7 @@ import com.patrickchow.financialcalc.ui.theme.FinancialCalcTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+        enableEdgeToEdge() // verify name change
         setContent {
             FinancialCalcTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
